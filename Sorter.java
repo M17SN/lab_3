@@ -1,5 +1,6 @@
 
 import java.io.*;
+import java.util.ArrayList;
 public class Sorter
 {
     void selectionSort(int arr[])
@@ -39,5 +40,8 @@ public class Sorter
             }
             arr[j + 1] = key;
         }
+    }
+    void sort(int list[]){
+        insertionSort(list, 0);
     }
 }
