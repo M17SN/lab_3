@@ -44,4 +44,8 @@ public class Sorter
     void sort(int list[]){
         insertionSort(list, 0);
     }
+
+    void sort(int list[]){
+        selectionSort(list);
+    }
 }
