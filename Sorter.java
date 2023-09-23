@@ -2,7 +2,7 @@
 import java.io.*;
 public class Sorter
 {
-    void sort(int arr[])
+    void selectionSort(int arr[])
     {
         int n = arr.length;
  
